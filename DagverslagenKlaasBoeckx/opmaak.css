@@ -16,5 +16,6 @@ nav a:hover{background-color:red;
 
 li{display:inline;}
 
-#logo{float:left;
-      width:20%;}
+#logo img {float:left;
+           width:20%;
+           height:auto;}
