@@ -6,14 +6,15 @@ nav {float:right;
     width:80%;}
 nav a{text-decoration:none;
      padding: 0px 20px 0px 20px;
-     color:white;
-     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     color:red;
      font-size:13pt;}
    
-nav a:hover{background-color:white;
-           color:pink;
+nav a:hover{background-color:red;
+           color:white;
            font-size:15pt;
            font-weight:bold;}
+
+li{display:inline;}
 
 #logo{float:left;
       width:20%;}
