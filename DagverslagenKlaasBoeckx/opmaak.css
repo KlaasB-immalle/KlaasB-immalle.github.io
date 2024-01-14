@@ -5,7 +5,7 @@ body{
 nav {
 	float:right;
     padding:20px 0px 20px 0px;
-    background-color:#c2263b;
+    background-color:#990011;
     color:#ffffff;
     width:80%;	
 	}
@@ -22,7 +22,8 @@ nav li a{
 	}
    
 nav li a:hover{
-	background-color:red;	
+	background-color:white;
+	color:black;	
 	font-weight:bold;
 	}
 
