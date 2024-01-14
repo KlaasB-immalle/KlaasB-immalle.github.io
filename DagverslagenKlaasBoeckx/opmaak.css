@@ -1,37 +1,55 @@
-body{font-family:Arial, Helvetica, sans-serif;
-     height:1000px;}
+body{
+	font-family:Arial, Helvetica, sans-serif;
+	}
 
-nav {float:right;
-    padding:20px 20px 20px 20px;
-    background:red;
+nav {
+	float:right;
+    padding:20px 0px 20px 0px;
+    background-color:#c2263b;
+    color:#ffffff;
+    width:80%;	
+	}
+
+nav li{
+	display:inline;
+	}
+
+nav li a{	
+	text-decoration:none;
+    padding: 20px 20px 20px 20px;	
     color:white;
-    width:75%;}
-nav a{text-decoration:none;
-     padding: 20px 20px 20px 20px;
-     margin:30px auto 30px auto;
-     color:white;
-     font-size:13pt;}
+    font-size:13pt;	
+	}
    
-nav a:hover{background-color:red;
-           color:white;
-           font-size:15pt;
-           font-weight:bold;}
+nav li a:hover{
+	background-color:red;	
+	font-weight:bold;
+	}
 
-li{display:inline;}
+section{
+	float:left;
+	width: 80%;
+	background-color:#e4ebed;
+	border-radius:15px;
+	text-align:center;
+	padding: 50px 0px 50px 0px;
+	margin:30px 10% 30px 10%;
+	}
 
-section{}
+#logo img{
+	width:20%;
+	height:61px;
+	float:left;
+	}
 
-#logo img{width:20%;
-          height:auto;
-          float:left;
-          padding-top:0px;
-          margin-top:0px;
-          padding-left:50px;}
+#gemeentehuis img{	
+	width:100%;
+	margin:1% 0% 1% 0%;	
+	}
+	
+footer{
+	text-align:center;
+}
+	
 
-#gemeentehuis img{width:100%;
-                  height:830px;}
 
-aside{float:right;
-      margin:30px auto 30px auto;}
-
-#iframe{float:left;}
