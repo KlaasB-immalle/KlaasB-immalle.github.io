@@ -2,6 +2,11 @@ body{
 	font-family:Arial, Helvetica, sans-serif;
 	}
 
+h1{
+	font-size:30pt;
+	font-weight:bold;
+}
+
 nav {
 	float:right;
     padding:20px 0px 20px 0px;
